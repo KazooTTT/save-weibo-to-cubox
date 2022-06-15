@@ -5,12 +5,17 @@
   "private": true,
   "scripts": {
     "watch": "webpack --mode=development --watch --config config/webpack.config.js",
-    "build": "webpack --mode=production --config config/webpack.config.js"
+    "build": "webpack --mode=production --config config/webpack.config.js",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
   },
   "devDependencies": {
     "@types/chrome": "0.0.181",
+    "@typescript-eslint/eslint-plugin": "^5.28.0",
+    "@typescript-eslint/parser": "^5.28.0",
     "copy-webpack-plugin": "^6.4.1",
     "css-loader": "^4.3.0",
+    "eslint": "^8.17.0",
     "file-loader": "^6.2.0",
     "mini-css-extract-plugin": "^0.10.1",
     "size-plugin": "^2.0.2",

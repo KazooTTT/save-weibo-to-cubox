@@ -1,21 +1,9 @@
-# <img src="public/icons/icon_48.png" width="45" align="left"> My Extension
+# cubox快速存储微博 浏览器插件
+## 插件介绍
+需要支持点击微博下方按钮，快速存储微博内容到cubox，参考flomoPlus中的存储twitter内容到flomo。
+![image-20220614223559394](https://kazoottt-1256684243.cos.ap-chengdu.myqcloud.com/143604.png)
 
-My Chrome Extension
+## 更新日志
 
-## Features
-
-- Feature 1
-- Feature 2
-
-## Install
-
-[**Chrome** extension]() <!-- TODO: Add chrome extension link inside parenthesis -->
-
-## Contribution
-
-Suggestions and pull requests are welcomed!.
-
----
-
-This project was bootstrapped with [Chrome Extension CLI](https://github.com/dutiyesh/chrome-extension-cli)
+- 2022年06月14日 星期二 项目初始化
 
